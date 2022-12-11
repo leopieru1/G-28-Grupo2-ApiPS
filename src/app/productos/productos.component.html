@@ -1,0 +1,189 @@
+<!--*/Vamos a crear una tabla para mostrar los productos de la base de datos-->
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Precio</th>
+      <th scope="col">Existencia</th>
+      <th scope="col">Categoría</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Descuento</th>
+      <th scope="col">Cantidad Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let producto of productos">
+      <th scope="row">{{producto.id}}</th>
+      <td>{{producto.nombre_producto}}</td>
+      <td>{{producto.precio}}</td>
+      <td>{{producto.existencia}}</td>
+      <td>{{producto.categoria}}</td>
+      <td>{{producto.marca}}</td>
+      <td>{{producto.descuento}}</td>
+      <td>{{producto.cantidad_total}}</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/lenovox1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portátil Lenovo X1 fold</h5>
+          <p class="card-text">La primera PC plegable del mundo</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $12.305.900</li>
+          <li class="list-group-item">Ahora $7.499.950</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/LGIltrawide29.png" class="card-img-top" alt="..." tall="50px">
+        <div class="card-body">
+          <h5 class="card-title">Monitor LG 29'</h5>
+          <p class="card-text">Monitor Ultrawide LG 29" IPS</p>
+        </div><!--*/Vamos a crear una tabla para mostrar los productos de la base de datos-->
+                <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $1.200.000</li>
+          <li class="list-group-item">Ahora $972.000</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/monitorSamsung27.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Monitor Samsung Ips de 27</h5>
+          <p class="card-text">Freesync 75Hz Hdmi F27t350</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $1.200.000</li>
+          <li class="list-group-item">Ahora $972.000</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/mouse.png" class="card-img-top" alt="..." tall="50%">
+        <div class="card-body">
+          <h5 class="card-title">Logitech G203 Mouse</h5>
+          <p class="card-text">LightSync, 6 Botones, Negro</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $100.000</li>
+          <li class="list-group-item">Ahora $80.000</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/cdesktop.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Todo En Uno Lenovo Intel </h5>
+          <p class="card-text">C I5 Disc Hdd1tb+ssd 1tb</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $3.699.900</li>
+          <li class="list-group-item">Ahora $3.329.910</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/asus.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Laptop gamer Asus TUF</h5>
+          <p class="card-text">Intel Core i7 11370H 8GB</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $5.049.999</li>
+          <li class="list-group-item">Ahora $4.544.999</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/teclado.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Teclado Bluetooth Recargable</h5>
+          <p class="card-text">Doble Canal Multi Dispositivo</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $99.900</li>
+          <li class="list-group-item">Ahora $69.900</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/camara.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Camara Web 1080p Para Pc</h5>
+          <p class="card-text">Laptop Usb WebCam Microfono</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $99.900</li>
+          <li class="list-group-item">Ahora $74.925</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/audifono.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Diadema Gamer Phoinikas</h5>
+          <p class="card-text">G2000 Bluetooth Inalambrica</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Antes $124.500</li>
+          <li class="list-group-item">Ahora $112.000</li>
+        </ul>
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">Carrito</button>&nbsp;
+          <button type="button" class="btn btn-success">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
